@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore books by Ganesh Anil Patil — Hindi and English stories, mysteries, and self-improvement reads.">
+<meta name="theme-color" content="#6b4eff">
+<title>Ganesh Anil Patil Books</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Ganesh Anil Patil Books home">
+    <span class="brand-mark" aria-hidden="true">📖</span>
+    <span><strong>Ganesh Anil Patil</strong><small>BOOKS & STORIES</small></span>
+  </a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="#home" data-i18n="navHome">Home</a><a href="#books" data-i18n="navExplore">Explore Books</a>
+    <a href="#free" data-i18n="navFree">Free Reading</a><a href="#about" data-i18n="navAbout">About</a>
+  </nav>
+  <div class="top-actions">
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+    <button class="language-btn" id="languageBtn" aria-label="Switch language">हिंदी</button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="spark">✦</span> <span data-i18n="eyebrow">A LITTLE WORLD OF STORIES</span></div>
+    <h1><span data-i18n="heroTitle1">Every book opens</span><br><em data-i18n="heroTitle2">a new world.</em></h1>
+    <p data-i18n="heroText">Discover mysteries, heartfelt stories and ideas that stay with you — written by Ganesh Anil Patil.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#books" data-i18n="explore">Explore Books <span>↗</span></a><a class="text-link" href="#free" data-i18n="readFree">Read for free →</a></div>
+    <div class="hero-proof"><span class="proof-icon">✦</span><span data-i18n="heroFoot">Stories in Hindi & English</span><span class="proof-dot">•</span><span data-i18n="noAccount">No account needed</span></div>
+  </div>
+  <div class="hero-art" aria-label="Decorative book showcase">
+    <div class="sun-orb"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="floating-note note-one">✧ STORIES THAT STAY</div>
+    <div class="book-stack">
+      <div class="book-shadow"></div>
+      <article class="book-cover cover-purple"><span class="cover-kicker">A NOVEL BY</span><strong>THE LAST<br>MESSAGE</strong><span class="cover-rule"></span><small>GANESH ANIL PATIL</small><span class="cover-moon">◐</span></article>
+      <article class="book-cover cover-cream"><span class="cover-kicker">A STORY OF</span><strong>SHADOW<br>OF TRUTH</strong><span class="cover-rule"></span><small>GANESH ANIL PATIL</small><span class="cover-leaf">❧</span></article>
+    </div>
+    <div class="floating-note note-two">✦ FIND YOUR NEXT READ</div>
+    <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div><span class="strip-icon">⌕</span><span data-i18n="strip1">Find your next favourite</span></div><div><span class="strip-icon">☼</span><span data-i18n="strip2">Read at your own pace</span></div><div><span class="strip-icon">♡</span><span data-i18n="strip3">Stories made to connect</span></div>
+</section>
+
+<section class="section" id="books">
+  <div class="section-head">
+    <div><span class="eyebrow" data-i18n="curated">THE AUTHOR'S SHELF</span><h2 data-i18n="booksTitle">Books to get lost in<span class="heading-dot">.</span></h2><p data-i18n="booksSub">Choose a mood, pick a story, and settle in.</p></div>
+    <a class="text-link desktop-only" href="#catalogue" data-i18n="viewAll">View all books ↗</a>
+  </div>
+  <div class="catalogue-tools" id="catalogue">
+    <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search title, author, genre…" data-i18n-placeholder="searchPlaceholder" aria-label="Search books"></label>
+    <select id="genreFilter" aria-label="Filter by genre"><option value="all">All genres</option><option value="Mystery">Mystery</option><option value="Romance">Romance</option><option value="Self-improvement">Self-improvement</option></select>
+    <select id="languageFilter" aria-label="Filter by language"><option value="all">All languages</option><option value="English">English</option><option value="Hindi">Hindi</option></select>
+  </div>
+  <div class="book-grid" id="bookGrid">
+    <article class="book-card" data-title="The Last Message" data-genre="Mystery" data-language="English">
+      <div class="card-cover card-last"><span class="mini-kicker">A PSYCHOLOGICAL MYSTERY</span><strong>THE LAST<br>MESSAGE</strong><span class="mini-rule"></span><small>GANESH ANIL PATIL</small><span class="cover-moon">◐</span><span class="status-tag">COMING SOON</span></div>
+      <div class="card-info"><div class="meta"><span>MYSTERY</span><span>ENGLISH</span></div><h3>The Last Message</h3><p>A mysterious final message. An old mansion. A truth that refuses to stay buried.</p><div class="card-bottom"><span class="price free-label">Preview soon</span><button class="small-link details-btn" data-book="last">Details ↗</button></div></div>
+    </article>
+    <article class="book-card" data-title="The Shadow of Truth" data-genre="Mystery" data-language="English">
+      <div class="card-cover card-shadow"><span class="mini-kicker">ROMANTIC SUSPENSE</span><strong>THE SHADOW<br>OF TRUTH</strong><span class="mini-rule"></span><small>GANESH ANIL PATIL</small><span class="shadow-shape"></span></div>
+      <div class="card-info"><div class="meta"><span>MYSTERY</span><span>ENGLISH</span></div><h3>The Shadow of Truth</h3><p>A Mumbai software engineer, a hidden identity, and a secret that changes everything.</p><div class="card-bottom"><span class="price">Store link needed</span><button class="small-link details-btn" data-book="shadow">Details ↗</button></div></div>
+    </article>
+    <article class="book-card" data-title="Nayi Shuruaat" data-genre="Self-improvement" data-language="Hindi">
+      <div class="card-cover card-sunrise"><span class="mini-kicker">KHUD SE EK VAADA</span><strong>नई<br>शुरुआत</strong><span class="mini-rule"></span><small>GANESH ANIL PATIL</small><span class="sunrise"></span></div>
+      <div class="card-info"><div class="meta"><span>SELF-GROWTH</span><span>HINDI</span></div><h3>Nayi Shuruaat</h3><p>Small habits, a calmer mind, and practical steps toward a more intentional life.</p><div class="card-bottom"><span class="price sample-label">Sample planned</span><button class="small-link details-btn" data-book="start">Details ↗</button></div></div>
+    </article>
+  </div>
+  <div class="empty-state" id="emptyState" hidden>No books match your search. Try another title or filter.</div>
+</section>
+
+<section class="free-section" id="free">
+  <div class="free-icon">✍</div><div class="free-copy"><span class="eyebrow" data-i18n="freeEyebrow">YOUR NEXT CHAPTER STARTS HERE</span><h2 data-i18n="freeTitle">Take a little reading break.</h2><p data-i18n="freeText">Explore free samples and selected chapters directly on the website — no account required.</p></div><a class="btn btn-light" href="#books" data-i18n="browseBooks">Browse books <span>↗</span></a>
+  <div class="free-deco">“</div>
+</section>
+
+<section class="about-section section" id="about">
+  <div class="author-avatar">G<span>.</span></div>
+  <div class="about-copy"><span class="eyebrow" data-i18n="aboutEyebrow">MEET THE AUTHOR</span><h2 data-i18n="aboutTitle">Stories, ideas & a little wonder.</h2><p data-i18n="aboutText">Ganesh Anil Patil writes across genres, bringing together mystery, emotion and practical ideas. This space is a home for current books, free reading and updates from the writing desk.</p><a class="text-link" href="#contact" data-i18n="contactAuthor">Contact the author →</a></div>
+  <div class="about-stats"><div><strong>02</strong><span data-i18n="stat1">Languages planned</span></div><div><strong>∞</strong><span data-i18n="stat2">Worlds to explore</span></div></div>
+</section>
+
+<section class="newsletter" id="contact"><div><span class="eyebrow" data-i18n="stayInTouch">STAY IN THE LOOP</span><h2 data-i18n="newsletterTitle">A note when something new arrives.</h2><p data-i18n="newsletterText">Newsletter signup will be connected after the backend is configured.</p></div><form id="newsletterForm" class="newsletter-form"><label class="sr-only" for="emailInput">Email address</label><input id="emailInput" type="email" placeholder="Your email address" required><button class="btn btn-primary" type="submit" data-i18n="notifyMe">Keep me posted ↗</button><small id="newsletterMessage" aria-live="polite">Demo form — no data is sent.</small></form></section>
+</main>
+
+<footer class="footer">
+  <a class="brand footer-brand" href="#home"><span class="brand-mark">📖</span><span><strong>Ganesh Anil Patil</strong><small>BOOKS & STORIES</small></span></a>
+  <p data-i18n="footerText">Stories worth your time. Words that stay with you.</p>
+  <div class="footer-links"><a href="#books">Books</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#privacy">Privacy</a></div>
+  <div class="copyright">© <span id="year"></span> Ganesh Anil Patil. All rights reserved.</div>
+</footer>
+
+<nav class="mobile-nav" aria-label="Mobile navigation"><a href="#home"><span>⌂</span><small data-i18n="navHome">Home</small></a><a href="#books"><span>▤</span><small data-i18n="navExplore">Explore</small></a><a href="#free"><span>✎</span><small data-i18n="navFree">Free Reading</small></a><a href="#about"><span>♡</span><small data-i18n="navAbout">About</small></a></nav>
+
+<div class="modal-backdrop" id="bookModal" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close dialog">×</button><div class="modal-cover" id="modalCover"></div><div class="modal-body"><span class="eyebrow" id="modalGenre">BOOK DETAILS</span><h2 id="modalTitle">Book title</h2><p id="modalDescription"></p><p class="modal-note">Purchase links and free reading chapters can be added from the future admin panel. This starter preview uses sample catalogue content.</p><button class="btn btn-primary" id="modalRead">Explore catalogue ↗</button></div></section></div>
+<script src="app.js"></script>
+</body>
+</html>
