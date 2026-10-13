@@ -9,6 +9,9 @@ const bookInfo = {
 };
 $$('.details-btn').forEach(btn => btn.addEventListener('click', () => {
   const b=bookInfo[btn.dataset.book]; if(!b) return;
+  $('#modalRead').textContent = btn.dataset.book === 'last'
+  ? 'Buy on Google Play Books ↗'
+  : 'Explore catalogue ↗';
   $('#modalTitle').textContent=b.title; $('#modalGenre').textContent=b.genre; $('#modalDescription').textContent=b.description; $('#modalCover').style.background=b.cover;
   $('#bookModal').hidden=false; $('#modalClose').focus();
 }));
